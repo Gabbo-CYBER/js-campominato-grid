@@ -1,0 +1,35 @@
+body{
+    background-color: #001632;
+    color: white;
+  }
+  .my-container{
+    width: 800px;
+  }
+  .grid{
+    width: 600px;
+    height: 600px;
+  }
+  .square{
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .easy{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+  }
+  .middle{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+  }
+  .hard{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+  }
+  .active{
+    background-color: #00df6b;
+  }
+  .lose{
+    background-color: red;
+  }
